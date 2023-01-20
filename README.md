@@ -1,42 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Illustrates the payload issue
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+install
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+```sh
+pnpm install --shamefully-hoist
 ```
 
-## Development Server
+run
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
+```sh
+pnpm run generate
 ```
 
-## Production
+preview
 
-Build the application for production:
-
-```bash
-npm run build
+```sh
+pnpm run preview
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
